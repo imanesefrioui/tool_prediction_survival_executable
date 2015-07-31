@@ -1,23 +1,23 @@
 README
 
-The program "tool2" works on both machine Linux 32 bits and Linux 64 bits.
+The program "tool" works on both machine Linux 32 bits and Linux 64 bits.
 
 If you have Linux 32 bits:
-		1. download the folder tool_prediction_executable that contains the executable file "tool2", the jar "weka.jar", the model "model_rf_656000_linux.model",
+		1. download the folder tool_prediction_executable that contains the executable file "tool", the jar "weka.jar", the model "model_rf_656000_linux.model",
 		   and the libraries needed to run the file (libQt5Widgets.so.5, libQt5Gui.so.5, libQt5Core.so.5, libicudata.so.53, libQt5DBus.so.5, libQt5DBus.so.5.4.2,
 		   libicui18n.so.53, libicuuc.so.53, platforms/libqxcb.so)
 		2. decompress the file model_rf_656000_linux.model.tar.gz
 		3. On the shell, go to the path of the folder and run the commands:
-		   smart@smart-laptop:~/Bureau/tool_prediction_executable$ chmod u+x tool2
+		   smart@smart-laptop:~/Bureau/tool_prediction_executable$ chmod u+x tool
 		   smart@smart-laptop:~/Bureau/tool_prediction_executable$ export LD_LIBRARY_PATH=$(pwd):$LD_LIBRARY_PATH
 		   smart@smart-laptop:~/Bureau/tool_prediction_executable/platforms$ export LD_LIBRARY_PATH=$(pwd):$LD_LIBRARY_PATH
-		4. Run the file tool2
+		4. Run the file tool
 		
 		
 	
 
 If you have Linux 64 bits:
-		1. download the folder tool_prediction_executable that contains the executable file "tool2", the jar "weka.jar", the model "model_rf_656000_linux.model",
+		1. download the folder tool_prediction_executable that contains the executable file "", the jar "weka.jar", the model "model_rf_656000_linux.model",
 		   and the libraries needed to run the file (libQt5Widgets.so.5, libQt5Gui.so.5, libQt5Core.so.5, libicudata.so.53, libQt5DBus.so.5, libQt5DBus.so.5.4.2,
 		   libicui18n.so.53, libicuuc.so.53, platforms/libqxcb.so)
 		2. decompress the file model_rf_656000_linux.model.tar.gz
@@ -29,12 +29,12 @@ If you have Linux 64 bits:
 		   root@smart-laptop:/home/smart# sudo apt-get install libxrender1:i386 libfreetype6:i386 libfontconfig1:i386 libice6:i386 libsm6:i386 libxi6:i386
 		6. check if there are any other library to install by using:
 		   smart@smart-laptop:~/Bureau/tool_prediction_executable$ ldd libqxcb.so
-		   smart@smart-laptop:~/Bureau/tool_prediction_executable$ ldd tool2
+		   smart@smart-laptop:~/Bureau/tool_prediction_executable$ ldd tool
 		   (otherwise install all the libraries of 32 bits: (to avoid)) root@smart-laptop:/home/smart# sudo apt-get install ia32-libs
 		   you can remove it later: sudo apt-get remove ia32-libs
 		7. On the shell, go to the path of the folder and run the commands:
-		   smart@smart-laptop:~/Bureau/tool_prediction_executable$ chmod u+x tool2
+		   smart@smart-laptop:~/Bureau/tool_prediction_executable$ chmod u+x tool
 		   smart@smart-laptop:~/Bureau/tool_prediction_executable$ export LD_LIBRARY_PATH=$(pwd):$LD_LIBRARY_PATH
 		   smart@smart-laptop:~/Bureau/tool_prediction_executable/platforms $ export LD_LIBRARY_PATH=$(pwd):$LD_LIBRARY_PATH
-		8. Run the file tool2
+		8. Run the file tool
 		
